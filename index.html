@@ -3,9 +3,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Taller</title>
+    <title>Fundamentos de HTML y CSS</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1>Fundamentos de HTML y CSS</h1>
+    </header>
+    <main class="bento-grid">
+        <section class="bento-item html-intro">
+            <h2>Introducción a HTML</h2>
+            <p>HTML (HyperText Markup Language) es el lenguaje estándar para crear páginas web. Define la estructura y el contenido de una página web utilizando una serie de elementos y etiquetas.</p>
+            <ul>
+                <li><code>&lt;html&gt;</code>: Elemento raíz de la página.</li>
+                <li><code>&lt;head&gt;</code>: Contiene metadatos y enlaces a recursos externos.</li>
+                <li><code>&lt;body&gt;</code>: Contiene el contenido visible de la página.</li>
+                <li><code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code>: Encabezados de diferentes niveles.</li>
+                <li><code>&lt;p&gt;</code>: Párrafos de texto.</li>
+                <li><code>&lt;a&gt;</code>: Enlaces (hipervínculos).</li>
+                <li><code>&lt;img&gt;</code>: Imágenes.</li>
+                <li><code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>, <code>&lt;li&gt;</code>: Listas.</li>
+            </ul>
+        </section>
+        <section class="bento-item css-intro">
+            <h2>Introducción a CSS</h2>
+            <p>CSS (Cascading Style Sheets) es un lenguaje de hojas de estilo utilizado para describir la presentación de un documento escrito en HTML. Permite controlar colores, fuentes, diseño y más.</p>
+            <ul>
+                <li><strong>Selectores:</strong> Apuntan a elementos HTML para aplicar estilos (ej. <code>p</code>, <code>.clase</code>, <code>#id</code>).</li>
+                <li><strong>Propiedades:</strong> Características que se desean cambiar (ej. <code>color</code>, <code>font-size</code>, <code>margin</code>).</li>
+                <li><strong>Valores:</strong> El ajuste específico para una propiedad (ej. <code>red</code>, <code>16px</code>, <code>20px auto</code>).</li>
+                <li><strong>Modelo de Caja:</strong> Cada elemento HTML es una caja con contenido, padding, borde y margen.</li>
+                <li><strong>Flexbox y Grid:</strong> Sistemas de diseño avanzados para crear layouts complejos y responsivos.</li>
+            </ul>
+        </section>
+        <section class="bento-item html-elements">
+            <h2>Elementos HTML Comunes</h2>
+            <p>Algunos de los elementos HTML más utilizados para estructurar contenido:</p>
+            <pre><code>&lt;div&gt;Contenedor genérico&lt;/div&gt;
+&lt;span&gt;Contenedor en línea&lt;/span&gt;
+&lt;form&gt;Formularios&lt;/form&gt;
+&lt;input type="text"&gt;Campos de entrada&lt;/input&gt;
+&lt;button&gt;Botones&lt;/button&gt;</code></pre>
+        </section>
+        <section class="bento-item css-properties">
+            <h2>Propiedades CSS Esenciales</h2>
+            <p>Propiedades CSS fundamentales para estilizar tus páginas:</p>
+            <pre><code>body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+.bento-item {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}</code></pre>
+        </section>
+        <section class="bento-item responsive-design">
+            <h2>Diseño Responsivo</h2>
+            <p>El diseño responsivo asegura que tu sitio web se vea bien en todos los dispositivos. Se logra principalmente con:</p>
+            <ul>
+                <li><strong>Media Queries:</strong> Permiten aplicar estilos diferentes según el tamaño de la pantalla.</li>
+                <li><strong>Unidades relativas:</strong> Como <code>%</code>, <code>em</code>, <code>rem</code>, <code>vw</code>, <code>vh</code>.</li>
+                <li><strong>Flexbox y Grid:</strong> Facilitan la adaptación del layout.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>DXM&copy;  Fundamentos Web</p>
+    </footer>
     
 </body>
 </html>
