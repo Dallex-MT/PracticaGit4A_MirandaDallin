@@ -38,7 +38,7 @@ PracticaGit4A_MirandaDallin/
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/username/PracticaGit4A_MirandaDallin.git
+   git clone https://github.com/Dallex-MT/PracticaGit4A_MirandaDallin.git
    ```
 
 2. Navega al directorio del proyecto:
